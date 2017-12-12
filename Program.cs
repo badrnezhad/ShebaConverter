@@ -6,7 +6,7 @@ namespace ShebaConverter
     {
         static void Main(string[] args)
         {
-            string sheba = ShebaUtility.ConvertAccountToSheba("xxxxxxxxxxxxx", "19");
+            string sheba = ShebaUtility.ConvertAccountToSheba("XXXXXXXXXXXXX", "19");
             Console.WriteLine(sheba);
             Console.ReadLine();
         }
